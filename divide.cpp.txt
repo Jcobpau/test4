@@ -1,0 +1,23 @@
+#include <iostream>
+#include <conio.h>
+#include <stdio.h>
+
+using namespace std;
+
+int main() {
+ 
+ //char znak;
+ int a, b, calosc, reszta;
+ cout<<"Podaj liczbe pierwsza: ";
+ cin>>a;
+ cout<<"Podaj liczbe druga: ";
+ cin>>b;
+ 
+ calosc = a/b;
+ reszta = a%b;
+
+ cout<<endl<<endl<<"Czesc calkowita z dzielenia "<<a<<" przez "<<b<<" wynosi: "<<calosc;  
+ cout<<endl<<"Reszta z dzielenia "<<a<<" przez "<<b<<" wynosi: "<<reszta;
+ getch();
+    
+} 

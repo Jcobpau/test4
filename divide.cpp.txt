@@ -6,7 +6,6 @@ using namespace std;
 
 int main() {
  
- //char znak;
  int a, b, calosc, reszta;
  cout<<"Podaj liczbe pierwsza: ";
  cin>>a;
